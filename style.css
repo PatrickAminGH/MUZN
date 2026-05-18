@@ -25,13 +25,11 @@
 html,
 body {
     min-height: 100dvh;
-    height: fit-content;
-    height: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     background-color: var(--dark-bg);
     font-family: "Cairo", sans-serif;
     color: var(--light-fn-cl);
